@@ -116,6 +116,9 @@ body {
       .header__menu span:nth-child(1)::before, .header__menu span:nth-child(1)::after {
         content: '';
         width: 45px;
+        -webkit-transition: 500ms;
+        -o-transition: 500ms;
+        transition: 500ms;
         top: 53px;
         left: 80%;
         background-color: #fff;
@@ -130,6 +133,9 @@ body {
         width: 45px;
         left: 80%;
         top: 43px;
+        -webkit-transition: 500ms;
+        -o-transition: 500ms;
+        transition: 500ms;
         height: 3px;
         position: absolute; }
       .header__menu li {
